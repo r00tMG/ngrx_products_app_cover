@@ -1,0 +1,19 @@
+<nav class="navbar">
+<ul class="p-4 navbar nav-pills">
+    <li class="btn btn-outline-primary" (click)="onGetAllProducts()">All</li>
+    <li class="btn btn-outline-primary" (click)="onGetSelectedProducts()">Selected</li>
+    <li class="btn btn-outline-primary" (click)="onGetAvailableProducts()">Available</li>
+</ul>
+<ul class="navbar ">
+    <div class="container-fluid">
+       <form #f="ngForm" (ngSubmit)="onSearch(f.value)" class="form-inline">
+        <div class="form-group">
+          <input type="text" ngModel name="keyword" id="" />
+          <button class="btn btn-info btn-sm m-lg-2">
+            <span class="fa fa-search"></span>
+          </button>
+        </div>
+      </form>
+    </div>
+</ul>
+</nav>

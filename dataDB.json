@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 10000,
+      "quantity": 12,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Printer network",
+      "price": "4000",
+      "quantity": "12",
+      "selected": false,
+      "available": false
+    },
+    {
+      "name": "SFDEFrh",
+      "price": "2346",
+      "quantity": 0,
+      "selected": true,
+      "available": false,
+      "id": 4
+    }
+  ]
+}
